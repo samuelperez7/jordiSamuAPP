@@ -1,9 +1,10 @@
 <?php
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $usuario = $_POST['usuario'];
-  $passwd = $_POST['password'];
-  $recordar = $_POST['recordar'];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Compruebo que el metodo es POST
+  $usuario = $_POST['usuario']; // Recojo del formulario el "usuario"
+  $passwd = $_POST['password']; // Recojo del formulario la "contraseña"
+  $recordar = $_POST['recordar']; // Recojo del formulario "recordar"
 };
 
 ?>
