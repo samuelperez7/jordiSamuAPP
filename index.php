@@ -1,3 +1,11 @@
+<?php
+
+$usuario = $_POST['usuario'];
+$passwd = $_POST['password'];
+$recordar = $_POST['recordar'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
